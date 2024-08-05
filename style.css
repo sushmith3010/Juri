@@ -1,0 +1,563 @@
+body{
+    font-family:cursive;
+    background-color: indianred;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+.container2{
+    width:1200px;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    background-color:pink;
+    position: fixed;
+    z-index: 2;
+}
+
+img{
+    height: 100px;
+    width:100px;
+    display: flex;
+}
+
+div.logo{
+    display: inline-block;
+    
+}
+
+li{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header .container2 nav{
+    display: inline-block;
+    
+}
+
+header nav ul li a{
+    padding-left: 9px;
+    display: inline-block;
+   position: relative;
+   top: 36px;
+    left:50px;
+    width:170px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.container2{
+    display: flex;
+
+}
+
+header nav ul li a:hover{
+background-color:beige;
+}
+
+.container{
+    width:100vw;
+    height:100vh;
+    background-size:1500px 700px;
+    background-attachment:initial;
+    background-image:url(ngo-working-for-children-rights-2.jpg);
+    background-repeat: no-repeat;
+  
+}
+
+
+.conatiner{
+    width:100%;
+    height:100vh;
+    background-attachment:initial;
+    background-image:url(bye.jpg);
+    background-size:auto; 
+    background-repeat: no-repeat ;
+}
+
+
+
+.container h1{
+    margin-top: 430px;
+    display: inline-block;
+    font-size: 18px;
+    color: red;
+    width:50%;
+    font-weight: 100;
+    font-size: 36px;
+    padding-left:10px;
+}
+
+.container p{
+    color:yellow;
+    padding-left:10px;
+    width:50%;
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 20px;
+    width: 300px;
+    height:75px;
+    color: brown;
+    background-color: rgb(255, 80, 217);
+   border: 2px solid black;
+   border-radius: 9px;
+   padding-left:10px;
+   margin-left: 10px;
+   
+}
+    
+.container button:hover{
+    cursor: pointer;
+}
+
+   
+.sectiontitle{
+    width:300px;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    margin:0 auto 50px;
+    position:relative;
+    text-transform: uppercase;
+}
+
+.sectiontitle::after{
+    display: inline-block;
+    height:15px;
+    width:15px;
+    position:absolute;
+    left:calc(50%-10px);
+    top:calc(75%-7px);
+    border: 3px solid red;
+}
+
+
+
+section{
+  padding: 100px 0;
+  position: relative;  
+}
+
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+    height:245 px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cards>div{
+    width:350px;
+    padding: 35px;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    border-radius: 9px;
+    height:215px;
+    border: 2px solid black;
+
+}
+
+.cards>div.title{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.cards>div p{
+    font-size: 14px;
+    margin-top:15px;
+
+}
+
+.cards>div button{
+    border:2px solid black;
+    padding:7px 15px;
+    margin-top:15px;
+    font-size: 12px;
+    border-radius: 9px;
+    cursor:pointer;
+}
+
+.cards > div:hover{
+  width:400px;
+margin-top:-20px;
+border-color: red;
+padding:55px;
+height:auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.programs{
+       background-color: blanchedalmond;
+        width:100%;
+        height:100vh;
+        background-attachment:initial;
+        background-image:url(jil.png);
+        background-size :1300px 570px; 
+        background-repeat: no-repeat ;
+        margin-bottom: 100px;  
+   
+}
+
+.programs.boxcontainer{
+    display:flex;
+ 
+
+}
+
+.programs .boxcontainer .box{
+    background-color: aquamarine;
+    border-radius: 9px;
+   position:relative;
+   margin-bottom: 15px;
+   display: inline-block;
+   align-items: center;
+   justify-content: center;
+   margin-right: 50px;
+   margin-left: 50px;
+   text-align: center;
+
+}
+
+.programs .boxcontainer .box .cardimage{
+   width: 200px;
+   height:180px;
+   position: relative;
+   top:100px;
+   overflow: hidden;
+   border-radius: 9px;
+   
+   
+} 
+
+.programs .boxcontaier .box .cardimage:after{
+    width:50%;
+    height:50%;
+    background-position:center ;
+    background-size: cover;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.programs .boxcontainer .box .programtitle{
+    font-size: 14px;
+    margin-top: 14px;
+    font-weight: 600;
+    color:black;
+}
+
+.programs .boxcontainer .box button{
+    padding:9px;
+    cursor: pointer;
+}
+
+.education{
+    height:100vh;
+    overflow: hidden;
+    position:relative;
+}
+
+.education .sectiontitle{
+    color: yellow;
+
+}
+
+.education .educationcontainer{
+    position:absolute;
+    width:600px;
+    top:35vh;
+    color: yellow;
+    padding:30px;
+}
+
+.education .educationcontainer h3{
+    font-size: 35px;
+    font-weight: 300;;
+}
+
+.education .educationcontainer p{
+    font-size: 15px;
+    line-height: 20px;
+    margin:10px;
+}
+
+.education .educationcontainer button{
+    background-color: rgb(0, 255, 26);
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.gallerycontainer .item img{
+    height:200px;
+    width:200px;
+}
+
+.container6{
+    padding-left:100px;
+    
+}
+
+.gallery .gallerycontainer{
+    column-count:4;
+    column-gap: 20px;
+  
+    margin-right: 100px;
+}
+
+.gallery .gallerycontainer .item{
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.gallery .gallerycontainer img{
+    width:100%;
+    display:block;
+}
+
+.gallery .gallerycontainer .title{
+    position: absolute;
+    background-color: grey;
+    padding:5px ;
+    margin:5px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0;
+    z-index:1 ;
+}
+
+.gallery .gallerycontainer .item:hover .title{
+  opacity: 1;  
+}
+
+@media screen and (max-width:1140px){
+    .education .videoplayer{
+        width:1280px;
+    }
+}
+@media screen and (max-width:1080px){
+    .banner h1{
+        margin-top:200px;
+
+    }
+    #aboutsection.card{
+        justify-content: space-around;
+        height: auto;
+    }
+    #aboutsection.cards>div{
+       margin:10px 0;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .banner h1{
+        font-size: 2.5rem;
+    }
+    .programs .boxcontainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:768px){
+    .banner p{
+        font-size:14px;
+    }
+
+    .banner h1{
+        width:70%;
+}
+
+#aboutsection.cards>div:hover{
+width:350px;
+
+
+}
+
+.education .educationcontainer{
+width:96%
+}
+
+.education .educationcontainer p{
+margin:10px 0 20px;
+}
+
+.gallery .gallerycontainer{
+    column-count: 2;
+}
+}
+
+@media screen and (max-width:425px){
+    .banner h1{
+        margin: top 150px;
+        font-size:2rem;
+        line-height:3rem;
+    }
+
+    .banner button{
+        margin-bottom:10px;
+    }
+
+    #aboutsection p{
+        text-align: justify;
+    }
+
+    #aboutsection .cards > div:hover{
+        width:400px;
+        margin-top:10px;
+        padding:35px;
+    }
+
+    .programs .boxcontainer{
+        grid-template-columns: 1fr;
+    }
+
+    .education .videoplayer{
+        width:1400px;
+    }
+
+    .education .educationcontainer{
+        width:93%;
+    }
+
+    .gallery .gallerycontainer{
+        column-count: 1;
+    }
+
+    footer.container{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width:320px){
+    .education .educationcontainer h3{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .banner h1{
+        margin-top:100px;
+    }
+}
+
+#programssection .container4 .boxcontainer  .box{
+    border: 2px solid red;
+    
+}
+
+
+#programssection .container4 .boxcontainer #b1{
+    background-image: url(1.jpg);
+    background-size: auto;
+}
+
+
+#programssection .container4 .boxcontainer #b2{
+    background-image: url(2.jpg);
+    background-size: auto;
+}
+
+
+#programssection .container4 .boxcontainer #b3{
+    background-image: url(3.jpg);
+    background-size: auto;
+}
+
+
+
+#programssection .container4 .boxcontainer button
+{
+    background-color: pink;
+    
+}
+
+
+.education{
+    background-image:url(std-crnr-news-1.jpg);
+    background-size: 1300px 700px;
+    background-repeat: no-repeat;
+}
+
+.container7{
+    height:100vh;
+    width:100vw;
+    background-color: yellow;
+    display: flex;
+}
+
+.container7 .cards{
+    height:450px;
+    width:450px;
+    background-color: red;
+    border: 2px solid black;
+    flex-direction: row;
+    margin:100px;
+    
+
+}
+
+
+.container7 #head{
+    font-style: italic;
+    padding:10px;
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.container7 #c1{
+background-image:url(abhi.jpg);
+}
+
+.container7 #c2{
+    background-image:url(sch.jpg);
+}
+
+.contact{
+    background-color: black;
+    color: black;
+    background-image:url(banner.jpg) ;
+    background-size: 1300px 400px;
+    background-repeat: no-repeat;
+}
+
+.contact p{
+    padding:2px;
+    margin:2px;
+    font-weight: bolder;
+
+}
+
+.contact h1{
+color: chocolate;
+}
+
+
